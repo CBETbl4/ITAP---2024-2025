@@ -19,3 +19,4 @@ int main()
     return 0;
 }
 //y = log(x + 1)//
+//234234//
