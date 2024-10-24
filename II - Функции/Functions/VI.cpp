@@ -13,8 +13,9 @@ int main()
     std::cin >> a >> b >> h;
     for (float i = a; i <= b; i += h)
     {
-        /*if (f(i) == -2) std::cout << i << "    " << "Неопределена" << std::endl;
+        /*if (f(i) == -2) std::cout << i << "    " << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl;
         else*/ std::cout << i << "    " << f(i) << std::endl;
     }
     return 0;
 }
+//1//
