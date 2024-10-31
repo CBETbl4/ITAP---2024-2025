@@ -4,13 +4,13 @@ using namespace std;
 float summf(float x, int n)
 {
 	float S = 0;
-	for (int i = 0; i >= n; i += 2)
+	for (int i = 0; i <= n; i += 2)
 	{
 		S += (pow(x, i) / i);
 	}
-	return (S);
+	return S;
 }
-int main();
+int main()
 {
 	float x;
 	int n;
