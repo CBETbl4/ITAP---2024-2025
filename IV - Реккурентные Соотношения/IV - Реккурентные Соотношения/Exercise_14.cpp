@@ -6,7 +6,8 @@ int main()
 	double b1=2, b2=1, b;
 	int n;
 	cin >> n;
-	for (int i = 1;i<=n;i++)
+	cout <<"b(1) = "<< b1<<endl<<"b(2) = "<< b2<<endl;
+	for (int i = 3;i<=n;i++)
 	{
 		b = (2. / 3) * b1 - (1. / 3) * b2 * b2;
 		b1 = b2;
@@ -14,3 +15,4 @@ int main()
 		cout << "b(" << i << ") = " << b << endl;
 	}
 	return 0;
+}
