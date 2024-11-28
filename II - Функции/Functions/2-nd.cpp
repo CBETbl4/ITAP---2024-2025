@@ -4,10 +4,7 @@ using namespace std;
 float f(float x, int j)
 {
 	float S = 0;
-	for (int i = 2; i <= j; i += 2)
-	{
-	    S+=x*x/j;
-	}
+	S=pow(x,j)/j;
 	return S;
 }
 int main()
@@ -23,4 +20,3 @@ int main()
 	cout << Summ;
 	return 0;
 }
-
