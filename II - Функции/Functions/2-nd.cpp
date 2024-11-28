@@ -23,24 +23,4 @@ int main()
 	cout << Summ;
 	return 0;
 }
-/*#include <iostream>
-#include <cmath>
-using namespace std;
-float f(float x, int n)
-{
-	float S = 0;
-	for (int i = 2; i <= n; i += 2)
-	{
-		S += ((pow(x, i)) / i);
-	}
-	return S;
-}
-int main()
-{
-	float x;
-	int n;
-	cin >> x;
-	cin >> n;
-	cout << f(x, n);
-	return 0;
-}*/
+
