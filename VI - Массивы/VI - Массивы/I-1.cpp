@@ -1,6 +1,6 @@
 /*
-    вводим длину массива, далее определяем его длину через 12 строку.
-    используем long long для предотвращения переполнения int при очень больших числах
+    we enter the length of the array, then we determine its length after line 12.
+    we use long long to prevent int overflow with very large numbers
 */
 #include <iostream>
 #include <vector>
