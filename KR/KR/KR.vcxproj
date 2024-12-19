@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="1massive.cpp" />
     <ClCompile Include="usl_oper.cpp" />
     <ClCompile Include="cik_s_par.cpp" />
   </ItemGroup>
