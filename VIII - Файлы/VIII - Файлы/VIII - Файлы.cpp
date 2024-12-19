@@ -16,8 +16,8 @@ int main()
             shortest = line;}}
     if (min_l == SIZE_MAX) out << "The file is empty." << endl;
     else {
-        out << "Shortest line: " << shortest << "\n";
-        out << "Length: " << min_l << endl;}
+        out << shortest << "\n";
+        out << min_l << endl;}
     in.close();
     out.close();
     return 0;
