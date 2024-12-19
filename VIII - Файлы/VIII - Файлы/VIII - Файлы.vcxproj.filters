@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VIII - Файлы.cpp">
+    <ClCompile Include="I.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="II.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

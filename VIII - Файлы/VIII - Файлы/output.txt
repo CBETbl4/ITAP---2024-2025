@@ -1,2 +1,5 @@
-Shortest line: adfdaf
-Length: 6
+6
+16.5
+3.5
+25
+8
