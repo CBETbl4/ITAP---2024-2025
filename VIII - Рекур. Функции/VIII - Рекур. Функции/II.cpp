@@ -11,9 +11,11 @@ using namespace std;
 //}
 int i = 0;
 int counter(const string& f, int a) {
-	if (a >= 0) { if (isdigit(f[a])) i++; }
+	if (a >= 1) { if (isdigit(f[a-1])) i++; }
 	else {
-		return i; i = 0;
+		int j = i;
+		i = 0;
+		return j;
 	}
 	a = a - 1;
 	counter(f, a);
