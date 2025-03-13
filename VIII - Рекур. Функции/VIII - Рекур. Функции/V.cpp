@@ -1,23 +1,21 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
 using namespace std;
 template <typename T>
-void inputMatrix(vector<vector<T>>& matrix, int rows, int cols) {
-    cout << "Enter hte element (" << rows << "x" << cols << "):" << endl;
+void inputMatrix(T** matrix, int rows, int cols) {
+    cout << "Enter the element (" << rows << "x" << cols << "):" << endl;
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < cols; ++j) {
             cout << "Element [" << i << "][" << j << "]: ";
             cin >> matrix[i][j];}}}
 template <typename T>
-void outputMatrix(const vector<vector<T>>& matrix, int rows, int cols) {
+void outputMatrix(T** matrix, int rows, int cols) {
     cout << "Matrix:" << endl;
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < cols; ++j) {
             cout << matrix[i][j] << " ";}
         cout << endl;}}
 template <typename T>
-T calculateMatrixNorm(const vector<vector<T>>& matrix, int rows, int cols) {
+T calculateMatrixNorm(T** matrix, int rows, int cols) {
     T norm = 0;
     for (int j = 0; j < cols; ++j) {
         T maxInCol = matrix[0][j];
@@ -30,7 +28,9 @@ int main() {
     int rows, cols;
     cout << "Enter the count of rows an cols: ";
     cin >> rows >> cols;
-    vector<vector<double>> matrix(rows, vector<double>(cols));
+    int** matrix = new int*[rows];
+    for (int i = 0; i < rows; ++i)
+        matrix[i] = new int[cols];
     inputMatrix(matrix, rows, cols);
     outputMatrix(matrix, rows, cols);
     double norm = calculateMatrixNorm(matrix, rows, cols);
