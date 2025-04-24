@@ -1,27 +1,34 @@
 //#include <iostream>
+//#include <cmath>
 //using namespace std;
-//void printZeros(int row) {
-//    if (row <= 0) return;
-//    cout << "0 ";
-//    printZeros(row - 1);
+//double calculateF(double x) {
+//    double term1 = sqrt(x * x + 1);
+//    double term2 = sqrt(x * x + 5);
+//    return term1 - term2;
 //}
-//void printNumbers(int row, int current) {
-//    if (current > row) return;
-//    cout << row << " ";
-//    printNumbers(row, current + 1);
+//void calculateF(double x, double& result) {
+//    double term1 = sqrt(x * x + 1);
+//    double term2 = sqrt(x * x + 5);
+//    result = term1 - term2;
 //}
-//void buildPyramid(int height, int current = 1) {
-//    if (current > height) return;
-//    printNumbers(current, 1);
-//    cout << endl;
-//    printZeros(current);
-//    cout << endl;
-//    buildPyramid(height, current + 1);
+//void buildTable(double a, double b, double h, double current) {
+//    if (current > b) return;
+//    double y1;
+//    calculateF(current, y1);
+//    double y = calculateF(current);
+//    if (isnan(y)) cout << "Function is undefined at x = " << current << endl;
+//    else if (isnan(y1)) cout << "Function is undefined at x = " << current << endl;
+//    else cout << "x = " << current << ", y = " << y << "/, y' = " << y1 <<endl;
+//    buildTable(a, b, h, current + h);
 //}
 //int main() {
-//    int height;
-//    cout << "Enter the height of the pyramid: ";
-//    cin >> height;
-//    buildPyramid(height);
+//    double a, b, h;
+//    cout << "Enter the start of the interval (a): ";
+//    cin >> a;
+//    cout << "Enter the end of the interval (b): ";
+//    cin >> b;
+//    cout << "Enter the step (h): ";
+//    cin >> h;
+//    buildTable(a, b, h, a);
 //    return 0;
 //}
