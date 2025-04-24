@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a33c8a65-a7cb-4ba5-9844-260f89a1e7ea}</ProjectGuid>
-    <RootNamespace>VIIIРекурФункции</RootNamespace>
+    <ProjectGuid>{e610154a-799f-4abf-9548-c81a9127bb03}</ProjectGuid>
+    <RootNamespace>XСтруктуры</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="I - 5-3-1.cpp" />
-    <ClCompile Include="I - 5-3-2.cpp" />
-    <ClCompile Include="II.cpp" />
-    <ClCompile Include="III.cpp" />
-    <ClCompile Include="IV.cpp" />
-    <ClCompile Include="V.cpp" />
+    <ClCompile Include="I.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
